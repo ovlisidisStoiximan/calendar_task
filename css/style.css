@@ -35,10 +35,12 @@ html {
   td {
     text-align: center;
     font-size: 1.5rem;
+    position: relative;
   }
 
   tr td:hover {
     background-color: #EEEEEE;
+    cursor: pointer;
   }
   
   caption {
@@ -56,6 +58,7 @@ html {
   
   caption i {
     padding: 0 60px;
+    cursor: pointer;
   }
   .sunday {
       color: #CB4444;
@@ -69,7 +72,8 @@ html {
   i.wi {
     font-size: 0.8em;
     position: relative;
-    top: 5px;
-    left: 30px;
     display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
